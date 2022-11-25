@@ -4,6 +4,7 @@ export default {
   title: "Environment variables",
   metaDescription: "Learn how to use environment variables in Netlify Edge Functions.",
   page: function () {
+    console.log(process.env);
     return `
     <section>
       <h1>Use environment variables</h1>
